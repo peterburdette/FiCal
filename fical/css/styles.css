@@ -1,0 +1,65 @@
+/* Generic Styling */
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+		Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 9pt;
+}
+
+#container {
+	margin: 40px auto;
+	width: 50%;
+	max-width: 314px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.fa-search-dollar {
+	margin: 20px 0px;
+	text-align: center;
+	display: block;
+}
+
+/* Form Styling */
+input[type="text"],
+input[type="number"] {
+	margin: 5px 0px;
+	padding: 10px;
+	width: 100%;
+	border: 1px solid #999;
+}
+
+input[type="button"] {
+	padding: 10px 20px;
+}
+
+.error {
+	border: 1px solid #ff0000 !important;
+}
+
+/* Chart Styling */
+#summary {
+	margin: 30px auto;
+	padding: 20px;
+	max-width: 800px;
+	line-height: 20px;
+	border: 1px solid #999;
+	display: none;
+}
+
+#chart {
+	margin: 0px auto;
+	max-width: 800px;
+	height: 500px;
+	display: none;
+}
+
+.heading-color,
+.table-color {
+	color: #000;
+}
+
+.table-color .saving-401k {
+	color: #f38400 !important;
+}
