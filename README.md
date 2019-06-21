@@ -6,6 +6,10 @@ FiCal is a basic 401(k) financial calculator that accepts a series of parameters
 
 This calculator uses a simple algorithm to calculate the annual 401(k) portfolio value per year.  There are three parameters which are accepted from the user that are used in this formula along with one constant: Retirement Package Value, Annual Contribution, Annual Rate of Return and Compound Interest.  Compound Interest is the constant that is applied to the `retPackageVal` after the current portfolio value and contribution value have been totaled.
 
+### Retirement Package Value
+
+The retirement pacakge value is a user entered parameter.  It is the current portfolio value of the 401(k).
+
 ### Annual Contribution
 
 The annual contribution is a user entered parameter.  It is the maximum contribution made to the 401(k) over the course of a year.  As of 2019, the maximum annual contribution one can make to their 401(k) is $19,500 USD.
